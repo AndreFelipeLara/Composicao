@@ -9,10 +9,18 @@ package composicao;
  *
  * @author Cliente
  */
-public class Motor {
-    
+public class Motor {    
     private int potencia;
+    
+    public Motor(){
+        potencia=1000;//VALOR PADRAO
+    }
 
+    public Motor(int potenia){
+        this.potencia=potencia; //valor definido por voces
+    }
+            
+            
     public int getPotencia() {
         return potencia;
     }
